@@ -1,0 +1,10 @@
+[
+  {"name":"librosa","url":"https://librosa.org/","category":"audio-analysis","tags":["python","mir","features"]},
+  {"name":"torchaudio","url":"https://pytorch.org/audio/stable/","category":"machine-learning-audio","tags":["python","pytorch","audio-ml"]},
+  {"name":"soundfile","url":"https://pysoundfile.readthedocs.io/","category":"read-write","tags":["python","audio-io"]},
+  {"name":"Demucs","url":"https://github.com/facebookresearch/demucs","category":"source-separation","tags":["python","stems","separation"]},
+  {"name":"TizWildinEntertainmentHUB","url":"https://github.com/GareBear99/TizWildinEntertainmentHUB","category":"tizwildin-ecosystem","tags":["hub","router","plugins","packs"]},
+  {"name":"TizWildin HUB public router","url":"https://garebear99.github.io/TizWildinEntertainmentHUB/","category":"tizwildin-ecosystem","tags":["io-router","deconstructed-loops","public-router"]},
+  {"name":"TizWildin Release Vault","url":"https://github.com/GareBear99/TizWildin-Release-Vault","category":"tizwildin-ecosystem","tags":["release-vault","catalog","music"]},
+  {"name":"Voxel Audio","url":"https://github.com/GareBear99/Voxel_Audio","category":"creator-audio","tags":["visualizer","router","loops","exports"]}
+]

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#10284a"/>
+      <stop offset="1" stop-color="#210b33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#g)"/>
+  <g fill="none" stroke="#60e7ff" stroke-opacity="0.38">
+    <path d="M80 470 C 180 250, 280 540, 380 320 S 580 220, 680 350 S 880 510, 980 250 S 1130 300, 1200 180" stroke-width="6"/>
+    <path d="M80 390 C 200 300, 300 430, 420 260 S 670 190, 760 330 S 950 470, 1200 260" stroke-width="2"/>
+  </g>
+  <text x="72" y="170" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">Awesome Python Audio Science</text>
+  <text x="76" y="238" fill="#b8ecff" font-family="Arial, Helvetica, sans-serif" font-size="34">DSP · MIR · ML Audio · Source Separation · Creator Routing</text>
+  <text x="76" y="548" fill="#ffffff" fill-opacity="0.86" font-family="Arial, Helvetica, sans-serif" font-size="30">GareBear99 / TizWildin Audio Discovery Network</text>
+</svg>
