@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Awesome Python Audio Science"
+message: "If this list helps your research or audio project, please cite it as a curated software/resource list."
+type: software
+authors:
+  - family-names: Doman
+    given-names: Gary
+    alias: GareBear99 / TizWildin
+repository-code: "https://github.com/GareBear99/awesome-python-audio-science"
+url: "https://github.com/GareBear99/awesome-python-audio-science"
+license: CC0-1.0
+keywords:
+  - Python audio science
+  - scientific audio
+  - audio DSP
+  - MIR
+  - machine learning audio
+  - citable audio software
+  - reproducible audio research

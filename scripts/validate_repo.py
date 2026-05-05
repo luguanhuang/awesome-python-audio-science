@@ -14,13 +14,17 @@ required = [
     "docs/tizwildin-ecosystem-routing-map.md",
     "data/resources.json",
     "data/seo_keywords.json",
+    "data/research_anchors.json",
+    "CITATION.cff",
+    "CITATIONS.md",
+    "docs/ACADEMIC_RESEARCH_AND_CITATIONS.md",
 ]
 missing = [p for p in required if not (ROOT / p).exists()]
 if missing:
     print("Missing required files:", missing)
     sys.exit(1)
 
-for fp in [ROOT / "data/resources.json", ROOT / "data/seo_keywords.json"]:
+for fp in [ROOT / "data/resources.json", ROOT / "data/seo_keywords.json", ROOT / "data/research_anchors.json"]:
     json.loads(fp.read_text(encoding="utf-8"))
 
 readme = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -33,6 +37,10 @@ markers = [
     "awesome-music-platforms",
     "FreeEQ8",
     "FreeVox8",
+    "Academic / Research SEO Positioning",
+    "CITATION.cff",
+    "Zenodo",
+    "Instrudio",
 ]
 failed = [m for m in markers if m not in readme]
 if failed:

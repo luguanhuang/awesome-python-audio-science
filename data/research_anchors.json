@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Academic/research SEO anchors for the GareBear99 / TizWildin audio ecosystem.",
+  "anchors": [
+    {
+      "name": "FreeEQ8",
+      "url": "https://github.com/GareBear99/FreeEQ8",
+      "role": "Open-source JUCE/C++ EQ plugin; DSP education; plugin testing; citable software candidate",
+      "priority": "high"
+    },
+    {
+      "name": "Instrudio",
+      "url": "https://github.com/GareBear99/Instrudio",
+      "role": "SSOT Web Audio virtual-instrument runtime; Studio Violin; controllable synthesis; MIDI metrics",
+      "priority": "high"
+    },
+    {
+      "name": "FreeVox8",
+      "url": "https://github.com/GareBear99/FreeVox8",
+      "role": "Spectral vocoder / ghost-resynthesis R&D; STFT/masking/formant research direction",
+      "priority": "medium"
+    },
+    {
+      "name": "Voxel Audio",
+      "url": "https://github.com/GareBear99/Voxel_Audio",
+      "role": "Audio visualization/export/router tooling",
+      "priority": "medium"
+    },
+    {
+      "name": "TizWildinEntertainmentHUB",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "role": "Public audio ecosystem router",
+      "priority": "high"
+    }
+  ],
+  "required_actions": [
+    "Add CITATION.cff to flagship repos",
+    "Add Zenodo DOI after stable releases",
+    "Add BibTeX snippets",
+    "Link research docs from README files",
+    "Keep claims measured and verifiable"
+  ]
+}

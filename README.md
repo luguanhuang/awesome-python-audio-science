@@ -1,6 +1,6 @@
 # Awesome Python Audio Science
 
-> A curated, public-facing list of Python audio science, scientific audio research, music information retrieval, DSP, machine learning audio, datasets, notebooks, and creator-audio tooling.
+> A curated, public-facing list of Python audio science, scientific audio research, DSP, MIR, machine-learning audio, datasets, notebooks, plugin testing, creator-audio tooling, and citation-ready audio research resources.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![GitHub stars](https://img.shields.io/github/stars/GareBear99/awesome-python-audio-science?style=social)
@@ -25,6 +25,32 @@ Use this list when you need Python tools for:
 - TizWildin / GareBear99 audio ecosystem routing, deconstructed loops, plugin hubs, and release-surface mapping
 
 This repo is inspired by the scientific-audio awesome-list tradition, especially [`faroit/awesome-python-scientific-audio`](https://github.com/faroit/awesome-python-scientific-audio), but it is intentionally broader: it includes research tooling, production-facing audio engineering, independent-artist data surfaces, plugin/tool ecosystems, and the GareBear99 / TizWildin routing network.
+
+## Academic / Research SEO Positioning
+
+This repository is the official **research-facing audio science satellite** inside the GareBear99 / TizWildin ecosystem. It is designed to bridge practical audio tools with scholarly search intent:
+
+- Python scientific audio libraries
+- DSP and spectral-analysis references
+- MIR / music information retrieval tooling
+- machine-learning audio resources
+- datasets and reproducible notebooks
+- citation-ready open-source audio software
+- DOI / Zenodo / BibTeX / `CITATION.cff` guidance
+- research bridges for FreeEQ8, FreeVox8, Instrudio, Voxel Audio, and the HUB router
+
+Use this repo when a project needs to look credible to developers, researchers, students, DSP learners, and audio-ML users instead of only producers.
+
+### Citation-ready ecosystem anchors
+
+| Project | Research / citation role |
+|---|---|
+| [FreeEQ8](https://github.com/GareBear99/FreeEQ8) | Open-source JUCE/C++ EQ plugin for DSP education, plugin testing, analyzer research, M/S processing examples, and citable audio-software packaging. |
+| [FreeVox8](https://github.com/GareBear99/FreeVox8) | Spectral vocoder / ghost-resynthesis R&D anchor for STFT, phase vocoder, formant, masking, and spectral-processing research direction. |
+| [Instrudio](https://github.com/GareBear99/Instrudio) | Single-source-of-truth virtual instrument runtime with physically informed Studio Violin, Web Audio synthesis, MIDI routing, and runtime metrics. |
+| [Voxel Audio](https://github.com/GareBear99/Voxel_Audio) | Audio visualization, image binding, export routing, and creator-facing media tooling useful for audio-visual research workflows. |
+| [TizWildinEntertainmentHUB](https://github.com/GareBear99/TizWildinEntertainmentHUB) | Public router for plugins, lists, deconstructed loops, sample packs, visualizers, and release surfaces. |
+
 
 ## GareBear99 / TizWildin Audio Discovery Network
 
@@ -56,6 +82,7 @@ Use these as the canonical public-facing anchors for deconstructed loops, sample
 
 ## Contents
 
+- [Academic / Research SEO Positioning](#academic--research-seo-positioning)
 - [Core Python Audio Packages](#core-python-audio-packages)
 - [Read / Write / Metadata](#read--write--metadata)
 - [DSP, Transforms & Spectral Analysis](#dsp-transforms--spectral-analysis)
@@ -71,6 +98,8 @@ Use these as the canonical public-facing anchors for deconstructed loops, sample
 - [GareBear99 / TizWildin Ecosystem](#garebear99--tizwildin-ecosystem)
 - [Best Python Audio Stack by Use Case](#best-python-audio-stack-by-use-case)
 - [Long-Tail Guides](#long-tail-guides)
+- [Research, Citations & DOI Guides](#research-citations--doi-guides)
+- [Citation-Ready GareBear99 / TizWildin Audio Software](#citation-ready-garebear99--tizwildin-audio-software)
 - [Related Awesome Lists](#related-awesome-lists)
 - [Contributing](#contributing)
 
@@ -223,6 +252,29 @@ These entries are included as canonical creator/audio ecosystem anchors, especia
 | Plugin rendering/testing | `pedalboard` | `DawDreamer`, JUCE/pluginval | Use for offline plugin tests and audio examples. |
 | TizWildin creator routing | `Voxel Audio` | `TizWildinEntertainmentHUB`, `Release Vault` | For deconstructed loops, public routing, visualizer export, packs, and music surfaces. |
 
+## Research, Citations & DOI Guides
+
+These pages turn the repo from a normal awesome list into an academic-facing research and citation hub:
+
+- [Academic research and citations](docs/ACADEMIC_RESEARCH_AND_CITATIONS.md) - how this repo connects Python audio science, DSP, MIR, audio ML, and citable software.
+- [Citation-ready audio software](docs/CITATION_READY_AUDIO_SOFTWARE.md) - checklist for `CITATION.cff`, BibTeX, Zenodo DOI, releases, and reproducible audio tooling.
+- [Zenodo DOI guide](docs/ZENODO_DOI_GUIDE.md) - how to make GitHub audio projects formally citable.
+- [Research SEO playbook](docs/RESEARCH_SEO_PLAYBOOK.md) - academic keyword strategy for audio DSP, MIR, ML audio, plugin testing, and scientific software.
+- [Deep-learning music resource map](docs/deep-learning-music-resource-map.md) - how this list connects to deep-learning-music resources without pretending every project is a peer-reviewed paper.
+- [FreeEQ8 research bridge](docs/FREEEQ8_RESEARCH_BRIDGE.md) - how to position FreeEQ8 as citable JUCE/C++ DSP software.
+- [Instrudio research bridge](docs/INSTRUDIO_RESEARCH_BRIDGE.md) - how to position Instrudio / Studio Violin as an SSOT virtual-instrument research runtime.
+- [FreeVox8 research bridge](docs/FREEVOX8_RESEARCH_BRIDGE.md) - how to position FreeVox8 as spectral vocoder / resynthesis R&D.
+
+## Citation-Ready GareBear99 / TizWildin Audio Software
+
+| Software | Suggested citation angle | Next action |
+|---|---|---|
+| [FreeEQ8](https://github.com/GareBear99/FreeEQ8) | Open-source JUCE/C++ 8-band EQ plugin for DSP education, analyzer testing, M/S processing examples, and pluginval/DAW compatibility workflows. | Add `CITATION.cff`, `CITATIONS.md`, Zenodo DOI, and release artifacts. |
+| [Instrudio](https://github.com/GareBear99/Instrudio) | SSOT Web Audio instrument runtime with physically informed Studio Violin, MIDI routing, plugin-bridge events, live metrics, and reproducible JSON definitions. | Add formal paper-style README section, BibTeX, and Zenodo archive. |
+| [FreeVox8](https://github.com/GareBear99/FreeVox8) | Spectral vocoder / ghost-resynthesis R&D package for STFT, masking, phase-vocoder, and formant-processing direction. | Add research spec, pluginval reports, and citation metadata after binary certification. |
+| [Voxel Audio](https://github.com/GareBear99/Voxel_Audio) | Audio visualization/export/router surface for waveform visualizer research, cover-art binding, and creator-media pipeline experiments. | Add reproducible export metrics and citation metadata. |
+| [TizWildinEntertainmentHUB](https://github.com/GareBear99/TizWildinEntertainmentHUB) | Public router and ecosystem index for plugins, lists, deconstructed loops, sample packs, release surfaces, and audio-tool discovery. | Keep it as the canonical public gateway and add crawlable links. |
+
 ## Long-Tail Guides
 
 - [Best Python libraries for audio analysis](docs/best-python-libraries-for-audio-analysis.md)
@@ -264,7 +316,7 @@ A curated awesome list of Python audio science, scientific audio research, DSP, 
 Recommended topics:
 
 ```text
-awesome awesome-list python audio scientific-audio audio-dsp signal-processing music-information-retrieval mir speech-processing source-separation audio-machine-learning datasets audio-analysis audio-visualization music-technology independent-artists tizwildin garebear99
+awesome awesome-list python audio scientific-audio audio-dsp signal-processing music-information-retrieval mir speech-processing source-separation audio-machine-learning datasets audio-analysis audio-visualization music-technology independent-artists tizwildin garebear99 audio-research research-software citable-software zenodo doi bibtex citation-cff reproducible-research deep-learning-music neural-audio
 ```
 
 ## Contributing
